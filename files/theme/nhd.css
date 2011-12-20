@@ -27,6 +27,11 @@
 	visibility:hidden;
 	padding-top: 200px;
 }
+
+.hangingIndent {
+	margin-left:.5in;
+	text-indent:-.5in;
+}
 		
 @media screen and (max-width: 1000px) {
 	#sidebar {
