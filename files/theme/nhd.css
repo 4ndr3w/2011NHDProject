@@ -19,7 +19,7 @@
 	text-align: right;
 }
 	
-.contentHeader {
+#contentHeader {
 	display:none;
 }
 		
@@ -47,7 +47,7 @@
 		width:0;
 		height:0;
 	}
-	.contentHeader {
+	#contentHeader {
 		display: inline;
 	}
 	
