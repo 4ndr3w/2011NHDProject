@@ -102,3 +102,35 @@
 	}
 }
 		
+@media screen and (max-height: 500px) {
+	
+	.invisibleWhenFullscreen {
+		display:inline;
+	}
+	
+	.invisibleWhenSmallscreen {
+		display:none;
+	}
+	
+	#sidebar {
+		display:none;
+		margin:0;
+		padding:0;
+		width:0;
+		height:0;
+	}
+	.offset-by-one {
+		margin:0;
+		padding:0;
+		width:0;
+		height:0;
+	}
+	#contentHeader {
+		display: inline;
+	}
+	
+	#topSpace {
+		visibility: visible;
+	}
+}
+
