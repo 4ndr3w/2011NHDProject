@@ -45,6 +45,30 @@
 .invisibleWhenSmallscreen {
 	display:inline;
 }
+
+
+.headerLink a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.headerLink a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.headerLink a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+.headerLink a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+
 	
 @media screen and (max-width: 1000px) {
 	
