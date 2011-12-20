@@ -32,8 +32,30 @@
 	margin-left:.5in;
 	text-indent:-.5in;
 }
-		
+
+#siteFooter {
+	text-align:center;
+	padding-top: 10px;
+}
+
+.invisibleWhenFullscreen {
+	display:none;
+}
+
+.invisibleWhenSmallscreen {
+	display:inline;
+}
+	
 @media screen and (max-width: 1000px) {
+	
+	.invisibleWhenFullscreen {
+		display:inline;
+	}
+	
+	.invisibleWhenSmallscreen {
+		display:none;
+	}
+	
 	#sidebar {
 		display:none;
 		margin:0;
