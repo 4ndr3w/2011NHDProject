@@ -27,6 +27,7 @@
 #topSpace {
 	visibility:hidden;
 	padding-top: 200px;
+	display:inline;
 }
 
 .hangingIndent {
